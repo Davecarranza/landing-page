@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+   background: #1F2937;
+   height: 72px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 48px;
+   font-weight: 900;
+
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+} 
+
+.header li {
+    list-style-type: none;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+} 
+
+ul  {
+    display: flex;
+    gap: 8px;
+} 
+
+.hero {
+    display: flex;
+    
+    padding: 0 48px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
+} 
+
+img {
+    width: 400px;
+    
+} 
+
+.boxes {
+    display: flex;
+    padding: 0 48px;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.box {
+    
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+} 
+
+.boxx {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h2 {
+    text-align: center;
+} 
+
+.quote {
+    background: #E5E7EB;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+} 
+
+.quote-p {
+    width: 500px;
+} 
+
+.quote-p .Thor {
+    text-align: right;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+} 
+
+.time {
+    background-color: #3882F6;
+    width: 700px;
+    height: 150px;
+    border-radius: 4px;
+} 
+
+.time {
+    display: flex;
+    
+}
+
+
+
