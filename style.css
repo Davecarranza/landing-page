@@ -50,6 +50,7 @@ img {
 
 .boxes {
     display: flex;
+   
     padding: 0 48px;
     justify-content: space-evenly;
     gap: 10px;
@@ -74,7 +75,7 @@ img {
 
 .quote {
     background: #E5E7EB;
-    height: 200px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,32 +83,84 @@ img {
 } 
 
 .quote-p {
-    width: 500px;
+    width: 600px;
+    font-size: 36px;
+    
+    font-style: italic;
 } 
 
 .quote-p .Thor {
     text-align: right;
     font-weight: bold;
+    font-size: 24px;
+
+
+
+
 }
 
 .action {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 500px;
+/*     height: 400px;
+    width: 700px; */
+    gap: 10px;
+    background-color: #3882F6;
+    height: 100px;
+    width: 700px;
+    border-radius: 10px;
+    color: #E5E7EB;
     
 } 
 
 .time {
-    background-color: #3882F6;
-    width: 700px;
-    height: 150px;
-    border-radius: 4px;
+  
 } 
 
 .time {
     display: flex;
     
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+} 
+
+.discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.container1 {
+    background: white;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+@media only screen and (max-width: 800px) {
+    .boxes {
+        flex-wrap: wrap;
+    }
 }
 
 
